@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JA Core R12/MCRT Evidence Pair",
+  "type": "object",
+  "required": [
+    "record_id",
+    "source_hash",
+    "semantic_id",
+    "ast_node",
+    "r12",
+    "mcrt"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "pattern": "^JACORE-[0-9]{5}$"
+    },
+    "source_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "semantic_id": {
+      "type": "string"
+    },
+    "ast_node": {
+      "type": "string"
+    },
+    "r12": {
+      "type": "object"
+    },
+    "mcrt": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

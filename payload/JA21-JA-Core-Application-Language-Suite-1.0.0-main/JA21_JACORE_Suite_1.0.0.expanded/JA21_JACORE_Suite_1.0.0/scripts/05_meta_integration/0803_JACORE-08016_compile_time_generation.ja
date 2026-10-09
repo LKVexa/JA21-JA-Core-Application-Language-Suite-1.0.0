@@ -1,0 +1,14 @@
+ja source 0.3
+module corpus.ja_core.example_08016
+use Core
+policy no_network
+
+record Item64 { id: Count, label: Text }
+function transform_64(item: Item64) -> Result<Item64, Text> effects { pure } {
+    let normalized: Text = item.label
+    return Ok(Item64 { id: item.id, label: normalized })
+}
+let sample: Item64 = Item64 { id: 64, label: "compile_time_generation-certification" }
+let result = transform_64(sample)
+assert result.is_ok == true
+emit json result

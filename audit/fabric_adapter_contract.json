@@ -1,0 +1,13 @@
+{
+  "profile": "ja.core",
+  "proposed_contribution": "Application types, ownership, effects and module contracts",
+  "reuse_boundary": "Preserve intended 8S foundation; define typed scalar and coupled operators separately.",
+  "source_archive_sha256": "14e28b51ec3bf807be6ade400dea89e1a68b89679b55e53b3566afef11192cc2",
+  "source_evidence_paths": [
+    "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/SUITE_CATALOG.md",
+    "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/catalogs/FEATURE_ATLAS.md",
+    "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/spec/LANGUAGE_SPECIFICATION.md"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

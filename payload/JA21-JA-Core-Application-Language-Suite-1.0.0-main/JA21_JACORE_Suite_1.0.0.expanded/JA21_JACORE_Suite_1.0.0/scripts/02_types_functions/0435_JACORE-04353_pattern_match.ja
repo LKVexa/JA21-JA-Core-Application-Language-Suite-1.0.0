@@ -1,0 +1,14 @@
+ja source 0.3
+module corpus.ja_core.example_04353
+use Core
+policy no_network
+
+record Item87 { id: Count, label: Text }
+function transform_87(item: Item87) -> Result<Item87, Text> effects { pure } {
+    let normalized: Text = item.label
+    return Ok(Item87 { id: item.id, label: normalized })
+}
+let sample: Item87 = Item87 { id: 87, label: "pattern_match-compiler" }
+let result = transform_87(sample)
+assert result.is_ok == true
+emit json result

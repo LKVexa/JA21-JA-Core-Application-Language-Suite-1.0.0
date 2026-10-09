@@ -1,0 +1,14 @@
+ja source 0.3
+module corpus.ja_core.example_09755
+use Core
+policy no_network
+
+record Item57 { id: Count, label: Text }
+function transform_57(item: Item57) -> Result<Item57, Text> effects { pure } {
+    let normalized: Text = item.label
+    return Ok(Item57 { id: item.id, label: normalized })
+}
+let sample: Item57 = Item57 { id: 57, label: "ownership-deployment" }
+let result = transform_57(sample)
+assert result.is_ok == false
+emit json result

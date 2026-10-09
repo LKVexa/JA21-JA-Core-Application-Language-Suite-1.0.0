@@ -1,0 +1,70 @@
+{
+  "coverage": [
+    {
+      "wrapper": "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/source/JA_Core_Application_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 1,
+      "original_id": "Corpora(2).zip::ja-core_corpus_10000/ja-core/CORPUS_SCHEMA.json",
+      "content_bytes": 8240,
+      "content_sha256": "09f532604fa25430c96a12ab90a777b4941c2176de1b5e878b8fe63fe30e6cf0",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/source/JA_Core_Application_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 2,
+      "original_id": "Corpora(2).zip::ja-core_corpus_10000/ja-core/ja-core_corpus_10000.jsonl",
+      "content_bytes": 58906054,
+      "content_sha256": "e859a9f2e9ea75cc36e17305312de971db6e4a8e5b3d7d450e9883ea5ccb578c",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 10001,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/source/JA_Core_Application_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 3,
+      "original_id": "Corpora(2).zip::ja-core_corpus_10000/ja-core/ja-core_index.csv",
+      "content_bytes": 3439605,
+      "content_sha256": "4f98868a93ce9bc2695de27281dbd5cf9ff9d109486032de21da993c63658cf2",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/source/JA_Core_Application_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 4,
+      "original_id": "Corpora(2).zip::ja-core_corpus_10000/ja-core/MANIFEST.json",
+      "content_bytes": 8929,
+      "content_sha256": "3afa0f176ee924be3a771ff322ef2c3dac7062761ce4f65df6107733843ea07c",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/source/JA_Core_Application_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 5,
+      "original_id": "Corpora(2).zip::ja-core_corpus_10000/ja-core/README.md",
+      "content_bytes": 4564,
+      "content_sha256": "5951e0ed5a550080db89abf219785a77ced371b70d438878a6aaf0e3a6a0ac69",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/source/JA_Core_Application_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 6,
+      "original_id": "Corpora(2).zip::ja-core_corpus_10000/ja-core/SAMPLES.md",
+      "content_bytes": 92830,
+      "content_sha256": "54198f446249f0bcafa2b1452afd6ea7b55bfd1580abbe66c3a97661b143f8cc",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Core-Application-Language-Suite-1.0.0-main/JA21_JACORE_Suite_1.0.0.expanded/JA21_JACORE_Suite_1.0.0/source/JA_Core_Application_Language_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 7,
+      "original_id": "Corpora(2).zip::ja-core_corpus_10000/ja-core/SHA256SUMS.txt",
+      "content_bytes": 905,
+      "content_sha256": "34a78205d4f8a731e81626ecd1c43d1aa908eb440145d342360b8e44d5b65af2",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    }
+  ],
+  "findings": [],
+  "note": "Embedded record totals overlap reconstructed datasets. They are additional coverage, not unique training examples."
+}

@@ -1,0 +1,31 @@
+{
+  "name": "JA21 Core Application Publication System",
+  "version": "1.0.0",
+  "principles": [
+    "air-gap safe",
+    "evidence first",
+    "application-centered",
+    "monochrome resilient",
+    "Windows path safe"
+  ],
+  "palette": {
+    "ink": "#17202A",
+    "paper": "#F6F4EE",
+    "application_blue": "#365B8C",
+    "signal_gold": "#C59B45",
+    "validation_green": "#4D7759",
+    "diagnostic_red": "#8B4A4A"
+  },
+  "typography": {
+    "display": "local system serif or sans",
+    "body": "local system sans",
+    "code": "local monospace"
+  },
+  "components": [
+    "evidence card",
+    "application layer band",
+    "compiler gate",
+    "runtime capsule",
+    "R12/MCRT seal"
+  ]
+}

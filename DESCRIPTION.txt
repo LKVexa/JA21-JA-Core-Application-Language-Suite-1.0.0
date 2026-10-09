@@ -1,0 +1,1 @@
+Study application language design through 10,000 records, 1,000 JA programs, and a 22-chapter textbook. JA Core brings types, ownership, effects, and module contracts together with feature catalogs, compiler and runtime specifications, lessons, and offline tools. A structured reference for educators, language designers, and application researchers.

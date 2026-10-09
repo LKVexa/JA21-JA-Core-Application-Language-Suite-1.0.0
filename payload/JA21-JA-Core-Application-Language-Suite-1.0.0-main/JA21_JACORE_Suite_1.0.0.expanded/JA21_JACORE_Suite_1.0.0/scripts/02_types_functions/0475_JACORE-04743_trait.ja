@@ -1,0 +1,14 @@
+ja source 0.3
+module corpus.ja_core.example_04743
+use Core
+policy no_network
+
+record Item89 { id: Count, label: Text }
+function transform_89(item: Item89) -> Result<Item89, Text> effects { pure } {
+    let normalized: Text = item.label
+    return Ok(Item89 { id: item.id, label: normalized })
+}
+let sample: Item89 = Item89 { id: 89, label: "trait-compiler" }
+let result = transform_89(sample)
+assert result.is_ok == true
+emit json result

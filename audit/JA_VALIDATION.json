@@ -1,0 +1,139 @@
+{
+  "corpus": "JA21-JA-Core-Application-Language-Suite-1.0.0-main",
+  "status": "PASS",
+  "datasets": [
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\JA21_JACORE_TECHNICAL_CORPUS_10000.jsonl.gz",
+      "program_records": 10000,
+      "metadata_records": 0,
+      "source_hashes_verified": 10000
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_01.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_02.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_03.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_04.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_05.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_06.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_07.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_08.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_09.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_10.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_11.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_12.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_13.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_14.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_15.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_16.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_17.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_18.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_19.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    },
+    {
+      "path": "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\shards\\JACORE_20.jsonl.gz",
+      "program_records": 500,
+      "metadata_records": 0,
+      "source_hashes_verified": 500
+    }
+  ],
+  "unique_master_program_records": 10000,
+  "supplied_schemas_applied": [
+    "payload\\JA21-JA-Core-Application-Language-Suite-1.0.0-main\\JA21_JACORE_Suite_1.0.0.expanded\\JA21_JACORE_Suite_1.0.0\\corpus\\technical\\JACORE_RECORD_SCHEMA.json"
+  ],
+  "metadata_warning_occurrences": {},
+  "scope": "Supplied schema where available, strict audit extension, exact source hashes where supplied, identity and master/shard equality. Domain grammar, types and execution not certified.",
+  "failures": []
+}
